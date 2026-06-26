@@ -1,0 +1,6 @@
+{
+  "name": "Immersive Web UI Showcase",
+  "description": "An interactive playground showcasing premium React components including WebGL procedural shaders, drag-to-shuffle testimonial card stacks, 3D card carousels, and spotlight overlays.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
