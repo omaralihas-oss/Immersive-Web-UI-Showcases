@@ -20,7 +20,17 @@ export function BlogSection() {
   useEffect(() => {
     fetch('/api/blog-posts')
       .then(res => res.json())
-      .then(data => setPosts(data));
+      .then(data => {
+        if (Array.isArray(data)) {
+          const updated = data.map(post => ({
+            ...post,
+            author: "Top Layer AI automation"
+          }));
+          setPosts(updated);
+        } else {
+          setPosts([]);
+        }
+      });
   }, []);
 
   const featuredPost = posts.find(p => p.type === 'featured');

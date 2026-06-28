@@ -45,7 +45,7 @@ export default function App() {
           onClick={() => setPage('lithos')}
           className={`px-4 py-2 rounded text-white text-sm font-medium transition-all ${page === 'lithos' ? 'bg-blue-600' : 'bg-slate-900/80 backdrop-blur border border-slate-800 hover:bg-slate-800'}`}
         >
-          Lithos
+          Top Layer AI
         </button>
         <button 
           onClick={() => setPage('carousel')}

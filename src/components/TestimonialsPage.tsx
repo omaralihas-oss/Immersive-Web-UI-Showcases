@@ -16,7 +16,7 @@ import {
 const testimonials = [
   {
     id: 1,
-    testimonial: "I feel like I've learned as much from Lithos as I did completing my masters. It's the first thing I read every morning.",
+    testimonial: "I feel like I've learned as much from Top Layer AI automation as I did completing my masters. It's the first thing I read every morning.",
     author: "Jenn F. - Marketing Director @ Square"
   },
   {
@@ -26,7 +26,7 @@ const testimonials = [
   },
   {
     id: 3,
-    testimonial: "Can not believe this is free. If Lithos was $5,000 a month, it would be worth every penny. I plan to name my next child after Lithos.",
+    testimonial: "Can not believe this is free. If Top Layer AI automation was $5,000 a month, it would be worth every penny. I plan to name my next child after Top Layer AI automation.",
     author: "Devin R. - Growth Marketing Lead @ OpenAI"
   }
 ];
@@ -171,7 +171,7 @@ export default function TestimonialsPage() {
 
       {/* Footer Info */}
       <footer className="relative z-10 py-6 border-t border-slate-900/80 bg-slate-950/20 text-center text-xs text-slate-500">
-        <p>© 2026 Lithos Media. Delivering knowledge daily.</p>
+        <p>© 2026 Top Layer AI automation. Delivering knowledge daily.</p>
       </footer>
     </div>
   );
